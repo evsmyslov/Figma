@@ -1,0 +1,83 @@
+.discussions-section {
+  background-color: #161616;
+  padding: 40px 60px;
+  color: white;
+}
+
+.discuss-news-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.discuss-card {
+  width: 400px;
+  background: white;
+  color: black;
+}
+.discuss-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.discuss-caption {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+.chat-bubbles-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.chat-bubble {
+  width: 450px;
+  background-color: #161616; 
+  border: 10px solid white; 
+  border-radius: 40px;
+  padding: 30px;
+  position: relative;
+ 
+  border-bottom-left-radius: 0; 
+}
+
+.chat-header {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+.username {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.chat-message {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.chat-actions {
+  text-align: right;
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.mt-2 { margin-top: 20px; }
+.mt-4 { margin-top: 40px; }
+
+.chat-reply-preview {
+    margin: 10px 0 20px 20px;
+    border-left: 2px solid #555;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #888;
+}

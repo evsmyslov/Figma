@@ -1,0 +1,32 @@
+.news-section {
+  background-color: #161616;
+  padding: 40px 60px;
+  color: white;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.ball-icon-small {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.news-time {
+  margin-right: 15px;
+  color: #ccc;
+  font-weight: 400;
+}

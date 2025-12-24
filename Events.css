@@ -1,0 +1,75 @@
+.events-section {
+  background-color: #161616; 
+  padding: 40px 60px;
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.event-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 400px; 
+}
+
+
+.card-btn {
+  margin-top: 20px;
+  align-self: center;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+
+.card-overlay .card-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.card-content-overlay {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+
+.card-white .card-image-top {
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+}
+.card-white .card-body {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
